@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -41,6 +42,5 @@ Mono*
 mscorlib.dll
 System*
 TDx*
-UnityEngine.dll
 *.pdb
 *.jar
