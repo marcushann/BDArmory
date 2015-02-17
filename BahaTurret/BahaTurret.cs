@@ -503,7 +503,7 @@ namespace BahaTurret
 					Aim ();	
 					CheckTarget ();
 					
-					if(((Input.GetKey(BDArmorySettings.FIRE_KEY) && (vessel.isActiveVessel || BDArmorySettings.REMOTE_SHOOTING) && !MapView.MapIsEnabled && !guardMode) || autoFire) && inTurretRange)
+					if((((vessel.isActiveVessel || BDArmorySettings.REMOTE_SHOOTING) && !MapView.MapIsEnabled && !guardMode) || autoFire) && inTurretRange)
 					{
 						if(weaponType == "ballistic" || weaponType == "cannon") Fire ();
 						else if(weaponType == "laser")
